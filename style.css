@@ -1,0 +1,144 @@
+/*Hide recaptcha on all pages*/
+
+.grecaptcha-badge 
+{ 
+visibility: hidden; 
+}
+
+/*First page elements*/
+
+.container-text 
+{
+	text-align: center;
+}
+
+.normal-text-styling
+{
+	text-align: center; 
+	font-size: 30px; 
+	line-height: 40px; 
+	color: #585eaa;
+}
+
+#introductionsText,
+.stats-top,
+.stats-number,
+.stats-block,
+.my-cust
+{
+	background: #AE7381;
+	background: -webkit-linear-gradient(to right, #AE7381 0%, #585EAA 100%);
+	background: -moz-linear-gradient(to right, #AE7381 0%, #585EAA 100%);
+	background: linear-gradient(to right, #AE7381 0%, #585EAA 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.followus-container
+{
+	width: 57%;
+	margin: auto;
+}
+
+/*Button styling*/
+
+
+.btn-shadow .dt-btn:not(.btn-light):not(.light-bg-btn):not(.outline-btn):not(.outline-bg-btn):not(.btn-no-decoration)
+{
+	box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.23);
+	-webkit-box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.23);
+	-moz-box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.23);
+}
+
+.next-event-btn
+{
+	background-color: #585EAA !important;
+}
+
+/*Form design*/
+
+#form-header
+{
+	text-align: center;
+	color: #585EAA;
+	font-weight: bold;
+	font-size: 22px;
+	margin-bottom: 40px;
+}
+
+.vc_custom_1537801793508
+{
+	box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.3);
+}
+
+.wpcf7 p 
+{
+	margin-bottom: 25px;
+}
+
+.wpcf7 input[type="text"],
+.wpcf7 input[type="email"],
+.wpcf7 input[type="tel"],
+.wpcf7 input[type="name"]
+{
+    
+  background-color: white;
+  width: 100%;
+	border: none !important;
+	border-bottom: 2px solid #585EAA !important;
+	transition: all .3s ease-in-out; 
+	
+}
+
+.wpcf7 input[type="text"]:focus,
+.wpcf7 input[type="email"]:focus,
+.wpcf7 input[type="tel"]:focus,
+.wpcf7 input[type="name"]:focus
+{
+	outline: none !important;
+	transform: scale(1.10);
+	box-shadow: 5px 5px 2.5px 1px rgba(0,0,0,0.3);
+	color: #333333;
+	font-size: 20px;
+	border-right: 2px solid #585EAA !important;
+}
+
+input.wpcf7-form-control.wpcf7-submit 
+{
+  display: block;
+  margin: 0 auto;
+	margin-top: 30px;
+	width: 65%;
+
+}
+
+input.wpcf7-form-control.wpcf7-submit, 
+.btn-shadow .wpcf7-submit,
+.btn-shadow .wpcf7-form input[type="submit"], 
+.btn-shadow input[type="submit"]:not([name="update_cart"])
+{
+	box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.23);
+	-webkit-box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.23);
+	-moz-box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.23);
+}
+
+
+textarea.wpcf7-form-control.wpcf7-textarea
+{
+	margin-top: 30px;
+	height: 200px;
+	min-height: 200px;
+	resize: vertical;
+	transition: all .3s ease-in-out; 
+	border: none !important;
+	border-bottom: 2px solid #585EAA !important;
+}
+
+textarea:focus.wpcf7-form-control:focus.wpcf7-textarea:focus
+{
+	transform: scale(1.10);
+	box-shadow: 5px 5px 		2.5px 1px rgba(0,0,0,0.3);
+	border-right: 2px solid #585EAA !important;
+	color: #333333;
+	font-size: 20px;
+}
