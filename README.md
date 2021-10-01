@@ -1,1 +1,1 @@
-# EntrepreneursNightOut-custom-css
+Custome CSS for website: https://entrepreneursnightout.org/en/
