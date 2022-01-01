@@ -2,8 +2,143 @@
 
 .grecaptcha-badge 
 { 
-	visibility: hidden; 
+visibility: hidden; 
 }
+
+/*WPML Languages spacing - flag, down arrow*/
+
+.wpml-ls-menu-item .wpml-ls-flag{
+	margin-right: 5px !important;
+}
+
+.wpml-ls-native {
+	margin-right: 5px !important;
+}
+
+/*Move main top pictures home/aboutus*/
+
+.home-top-img{
+	position: relative;
+	top: -50px;
+}
+
+.about-us-top-img2 {
+	position: relative;
+	top: -75px;
+}
+
+.floor-photo-home {
+	
+}
+
+
+
+/*Responsive Fonts on whole website*/
+
+h1 {
+	font-size: 2.5rem !important;
+}
+
+.page-title h1, .page-title h1 *, .page-title h1 a:hover, #page .page-title .entry-title {
+	font-size: 1.5rem !important;
+}
+
+h2{
+	font-size: 1.5rem !important;
+}
+
+h3, h4{
+	font-size: 1.0rem !important;
+}
+
+p, .uvc-sub-heading div, .uvc-sub-heading p, .uvc-sub-heading span, .wpb_text_column .wpb_content_element, .wpb_wrapper p span, wpb_wrapper p {
+	font-size: 1.0rem !important;
+}
+
+#captcha-google{
+	font-size: 0.8rem !important;
+}
+
+@media screen and (min-width: 768px) {
+
+html
+{
+	font-size: 110% !important;
+}
+
+}
+
+@media screen and (min-width: 1024px) {
+
+html
+{
+	font-size: 120% !important;
+}
+
+}
+
+@media screen and (min-width: 1200px) {
+	
+html
+{
+	font-size: 130% !important;
+}
+	
+}
+
+/*Top Navigation*/
+
+/*Triangle and shadow on language switcher*/
+
+@media screen and (min-width: 1025px) {
+
+.wpml-ls-item ul:before 
+{
+	content:"";
+	position: absolute;
+	left: 16px;
+	top: -10px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 10px 10px 10px;
+	border-color: transparent transparent white transparent;
+	z-index:9999;
+}
+
+}
+
+
+@media screen and (min-width: 1025px) {
+	
+	
+.wpml-ls-item ul
+{
+	background-color: #fff;
+  border: 1px solid #fff;
+	border-radius: 10px;
+	box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.23);
+	-webkit-box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.23);
+	-moz-box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.23);
+}
+	
+}
+
+.masthead:not(.mixed-header) {
+box-shadow:
+      0 1px 1px hsl(0deg 0% 0% / 0.075),
+      0 2px 2px hsl(0deg 0% 0% / 0.075),
+      0 4px 4px hsl(0deg 0% 0% / 0.075),
+      0 8px 8px hsl(0deg 0% 0% / 0.075) !important;
+}
+
+/*Footer*/
+
+#bottom-bar div p span a, .bottom-text-block p, .wf-float-right p, .bottom-text-block div p a, .wf-float-right div p a 
+{
+	font-size: 0.7rem !important;
+}
+
 
 /*First page elements*/
 
@@ -36,7 +171,7 @@
 
 .followus-container
 {
-	width: 57%;
+	width: 66%;
 	margin: auto;
 }
 
